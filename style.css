@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: bisque;
+}
+.img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+
+}
+.img-gallery img{
+    width: 250px;
+    height: 200px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: solid blueviolet 2px;
+}
